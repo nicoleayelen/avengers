@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+}
+
+.avengers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.menuHero ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menuHero ul li {
+  color: white;
+  list-style-type: none;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+}
+
+.menuHero ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menuHero ul li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.menuHero ul li a:active {
+  color: grey;
+}
+
+.logoMarvel {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: 'Bebas Neue', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+p {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */

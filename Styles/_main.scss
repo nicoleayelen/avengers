@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+
+.avengers {
+    display: flex;
+    justify-content: center;
+}
+
+.menuHero {
+    ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            justify-content: space-around;
+        li {
+            color: white;
+            list-style-type: none;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 50px;
+            //padding-right: 150px;
+            //padding-left: 50px;
+            //margin-right: 40px;
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
+
+.menuHero {
+    ul {
+        li {
+            a:hover {
+                color: red;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.menuHero {
+    ul {
+        li {
+            a:active {
+                color: grey;
+            }
+        }
+    }
+}

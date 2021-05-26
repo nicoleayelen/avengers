@@ -1,0 +1,21 @@
+body {
+    background: rgb(247,7,7);
+background: linear-gradient(90deg, rgba(247,7,7,1) 0%, rgba(109,110,106,1) 75%);
+}
+
+h1 {    
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-color: black;
+    -webkit-text-stroke: 1px black;
+}
+
+.imgthor {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+body {
+    background: rgb(0,56,221);
+background: linear-gradient(90deg, rgba(0,56,221,1) 0%, rgba(14,0,10,1) 75%);
+}
+
+h1 {
+        color: blue;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 200px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+        border-color: black;
+        -webkit-text-stroke: 1px black;
+    }
+
+.captain {
+    display: flex;
+    justify-content: center;
+}    
+    
